@@ -37,6 +37,12 @@
             <optional>true</optional>
         </dependency>
 
+<!--        Для: Аспект для логирования запросов-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+
         <!-- Для тестов -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
